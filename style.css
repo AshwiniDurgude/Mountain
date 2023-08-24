@@ -65,7 +65,7 @@ font-style: italic;
 font-family: "Lato";
 }
 .section_1st {
-background-image: url("asset/mountain.png");
+background-image: url("mountain.png");
 }
 .section-2nd-head{
 display: flex;
@@ -119,7 +119,7 @@ font-style: italic;
 font-family: "Lato";
 }
 .section_2nd {
-background-image: url("asset/section2_bg.png");
+background-image: url("section2_bg.png");
 background-size: cover;
 }
 .slide-img-div{
@@ -156,7 +156,7 @@ margin-left: 72px;
 padding-top: 70px;
 }
 .section_3rd {
-background-image: url("asset/section3_bg.png");
+background-image: url("section3_bg.png");
 background-size: cover;
 }
 .footer-copy{
