@@ -1,0 +1,249 @@
+html,
+body {
+height: 100%;
+margin: 0px;
+/* width: 1658px */
+/* width: 100%; */
+/* box-sizing: border-box; */
+text-transform: capitalize;
+overflow:visible;
+}
+.img-section{
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+background-size: cover;
+}
+.disp-flex{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.d-flex{
+display: flex;
+}
+.clr-white{
+color: #ffffff;
+}
+.clr-grey{
+color: #414f6b;
+}
+.clr-bg-grey{
+background-color: #414f6b;
+}
+.margin-l-10{
+margin-left: 10px;
+}
+.h-40{
+height: 40px;
+}
+.padding-t-10{
+padding-top: 10px;
+}
+.padding-b-20{
+padding-bottom: 20px;
+}
+.padding-t-20{
+padding-top: 20px;
+}
+.padding-l-80{
+padding-left: 216px;
+}
+.nav{
+align-items: center;
+padding-top: 5px;
+}
+.nav-title{
+display: flex;
+gap: 16px;
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 20px;
+text-transform: uppercase;
+font-weight: 900;
+font-style: italic;
+font-family: "Lato";
+}
+.section_1st {
+background-image: url("asset/mountain.png");
+}
+.section-2nd-head{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding-top: 5px;
+}
+.hist-contain{
+/* opacity: 0.502; */
+font-size: 136px;
+font-weight: 700;
+font-family: "Oswald";
+}
+.history-text{
+font-size: 32px;
+font-weight: 700;
+font-family: "Oswald";
+}
+.history-info{
+width: 814px;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+font-weight: 300;
+font-family: "Lato";
+}
+.header-text-style{
+font-size: 21px;
+letter-spacing: 0px;
+line-height: 23px;
+font-weight: 900;
+text-transform: uppercase;
+font-family: "Oswald";
+}
+.header1-logo-text{
+position: absolute;
+color: #4d4d4d;
+}
+.header-text{
+display: flex;
+flex-direction: row;
+gap: 16px;
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 20px;
+text-transform: uppercase;
+color: #414f6b;
+font-weight: 900;
+font-style: italic;
+font-family: "Lato";
+}
+.section_2nd {
+background-image: url("asset/section2_bg.png");
+background-size: cover;
+}
+.slide-img-div{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.climb-histroy-position{
+position: absolute;
+padding-top: 93px;
+margin-left: -27px;
+}
+.histroy-info{
+padding-right: -8px;
+padding-top: 153px;
+margin-left: -70px;
+}
+.header3-text1{
+font-size: 20px;
+text-decoration: underline;
+color: #414f6b;
+font-weight: 700;
+font-family: "Oswald";
+background-color: #b0b4be;
+}
+.header3-text2{
+font-size: 20px;
+color: #b0b4be;
+font-weight: 700;
+font-family: "Oswald";
+}
+.climb-info{
+margin-left: 72px;
+padding-top: 70px;
+}
+.section_3rd {
+background-image: url("asset/section3_bg.png");
+background-size: cover;
+}
+.footer-copy{
+opacity: 0.502;
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 20px;
+text-transform: uppercase;
+color: #63769d;
+font-weight: 900;
+font-style: italic;
+font-family: "Lato";
+}
+.footer-text{
+font-size: 21px;
+letter-spacing: 0px;
+line-height: 23px;
+text-transform: uppercase;
+color: #63769d;
+font-family: "Bebas";
+}
+.table-style{
+opacity: 0.702;
+width: 352px;
+height: 229px;
+background-color: #ffffff;
+background-color: transparent;
+}
+.table-heading{
+font-size: 32px;
+color: #414f6b;
+font-weight: 700;
+font-family: "Oswald";
+}
+.table-data{
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+font-weight: 300;
+font-family: "Lato";
+}
+.table-position{
+background-color: #ffffff;
+position: absolute;
+margin-left: 325px;
+margin-top: 90px;
+}
+.footer-logo-text{
+opacity: 0.502;
+font-size: 21px;
+letter-spacing: 0px;
+line-height: 23px;
+font-weight: 700;
+text-transform: uppercase;
+color: #63769d;
+font-family: "Oswald";
+}
+.img-h-w{
+width: 100px;
+height: 150px;
+background-size: cover;
+border-radius: 2px;
+}
+.img-bg-style{
+opacity: 0.8;
+background-color: #414f6b;
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: -50%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    /* body { margin: 0; }  */
+    div#slider { overflow: hidden; }
+    div#slider img { width:20%; float: left; }
+    div#slider { 
+      position: relative;
+      width: 500%;
+      margin-left: 100;
+      left: 0;
+      animation: 5s slidy infinite; 
+    }
+    
